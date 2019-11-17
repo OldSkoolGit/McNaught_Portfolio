@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NM Design</title>
+
+	<link rel="stylesheet" href="css/newform.css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="images/browser-logo.ico" rel="icon" type="image/ico">
+</head>
+
+<body>
+
+    <!--Facebook Like Button:-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!--End Facebook Like Button-->
+
+<div id="outer">
+	<header>
+		<div class="top-menu-cont">
+
+			<nav class="top-menu">
+				<ul>
+					<li class="nav-adj"><a href="index.html">Home</a></li>
+					<li class="nav-adj"><a href="about.html">About</a></li>
+					<li><a href="index.html"><img src="images/Logo.png" alt="NM Design Logo"></a></li>
+					<li class="nav-adj"><a href="projects.html">Projects</a></li>
+					<li class="nav-adj"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<br class="clearfloat"/>
+		</div>
+	</header>
+	<!-- DIV id=main to support IE6 -->
+	<div id="main">
+		<div class="main-bckg">
+			<div id="top-cont">
+			</div>
+		</div>
+			<!-- <div class="main-cont"> -->
+				<div id="form">
+					<form action="#" method="post" id="theForm">
+				        <fieldset>
+							<p>Become a Member</p>
+							<div class="form-field">
+								<label for="firstName">First Name</label>
+								<input type="text" name="firstName" id="firstName" placeholder="Please enter your First Name">
+							</div>
+							<div class="form-field">
+								<label for="lastName">Last Name</label>
+								<input type="text" name="lastName" id="lastName" placeholder="Please enter your Last Name">
+							</div>
+							<div class="form-field">
+								<label for="email">Email Address</label>
+								<input type="email" name="email" id="email" placeholder="Please enter your Email address">
+							</div>
+							<div class="form-field">
+								<label for="phone">Phone Number<span class="tooltip">In the format XXX XXX XXXX or XXX-XXX-XXXX or XXXXXXXXXX.</span></label>
+								<input type="text" name="phone" id="phone" placeholder="Please enter your Phone Number">
+							</div>
+							<div class="form-field">
+								<label for="city">City</label>
+								<input type="text" name="city" id="city" placeholder="Please enter your City">
+							</div>
+							<div class="select">
+								<label for="state">State/Territory</label>
+								<select name="state" id="state">
+									<option value="">Select a State/Territory</option> 
+									<option value="ACT">Australian Capital Territory</option>
+									<option value="NSW">New South Wales</option>
+									<option value="NT">Northern Territory</option>
+									<option value="Qld">Queensland</option>
+									<option value="SA">South Australia</option>
+									<option value="Tas">Tasmania</option>
+									<option value="Vic">Victoria</option>
+									<option value="WA">Western Australia</option>
+								</select>
+							</div>
+							<div class="form-field">
+								<label for="zip">Post Code</label>
+								<input type="text" name="zip" id="zip" placeholder="Please enter your Post Code">
+							</div>
+							<div class="two">
+								<input type="checkbox" name="terms" id="terms">  Sign Me Up!
+							</div>
+							<div class="one">
+								<input type="submit" value="Register" id="submit">
+							</div>
+						</fieldset>
+					</form>
+				<!-- </div> -->
+			</div>
+		<br class="clearfloat"/>
+		<div id="btm-cont">
+		</div>
+	</div>
+
+	<footer>
+
+        <!--Facebook Like Button:-->
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+        <!--End Facebook Like Button-->
+    
+        <!-- LinkedIn Share Button:-->
+        <div>
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+            <script type="IN/Share" data-url="https://www.linkedin.com/in/nathan-mcnaught-555b6b7a/"></script>
+        </div>
+        <!--End LinkedIn Share Button-->
+
+		<div class="footer-container">
+			<p id="copyrgt">&copy;Copyright NMDesign 2018</p>
+		</div>
+	</footer>
+
+</div>
+
+    <script src="js/utilities.js"></script>
+    <script src="js/errorMessages.js"></script>
+    <script src="js/register.js"></script>
+
+</body>
+</html>

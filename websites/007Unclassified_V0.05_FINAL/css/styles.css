@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent none no-repeat 0 0;
+    color: #484848;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: GoldenEye;
+    src: url(../fonts/007GoldenEye.ttf);
+}
+
+@font-face {
+    font-family: Quantum;
+    src: url(../fonts/Quantum.otf);
+}
+
+@font-face {
+    font-family: Skyfall;
+    src: url(../fonts/SkyfallDone.ttf);
+}
+
+@font-face {
+    font-family: Spectre;
+    src: url(../fonts/Spectre007.otf);
+}
+
+.clearfloat {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    float: none;
+    height: 0px;
+    width: 0px;
+    border: 0px none;
+    line-height: 0px;
+}
+
+.button {
+    background-color: #333333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+.button:active {
+    background: black;
+    color: gold;
+}
+
+#container {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#section1 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+
+#section1 img {
+    width: 100%;
+}
+
+#section2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 65%;
+    float: right;
+    text-align: justify;
+    margin-bottom: 55px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#section3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 65%;
+    float: left;
+    text-align: justify;
+    margin-bottom: 55px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#section4 {
+    width: 100%;
+    max-width: 300px;
+    float: right;
+    text-align: center;
+}
+
+#section4 img {
+    width: 100%;
+}
+
+#index-head {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 1080px;
+    text-align: justify;
+    padding: 25px;
+    margin-bottom: 25px;
+    height: auto;
+    border-radius: 15px;
+}
+
+#index-head img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.content {
+    background: transparent;
+    font-family: GoldenEye;
+    padding: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    font-family: GoldenEye;
+    font-size: 65px;
+}
+
+h2 {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    font-family: GoldenEye;
+    font-size: 55px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: GoldenEye;
+    font-size: 18px;
+    text-shadow: 2px 2px black;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-family: GoldenEye;
+    font-size: 25px;
+}
+
+h5 {
+    color: red;
+    text-align: center;
+    font-family: GoldenEye;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 2px 2px black;
+}
+
+h6 {
+    color: white;
+    text-align: center;
+    font-family: GoldenEye;
+    font-size: 28px;
+    text-shadow: 2px 2px black;
+}
+
+body {
+    background-image: url(../images/brushsteel2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#outer {
+    margin: 0px auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu ul li {
+    width: 18%;
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 50;
+    list-style-type: none;
+}
+
+.top-menu ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.top-menu ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 100px;
+    color: white;
+}
+
+.top-menu ul li a:active {
+    color: red;
+}
+
+.top-menu ul li a img {
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+.nav-adj {
+    background: #D3D3D3;
+    margin: 7.5% 1% 1% 1%;
+    font-family: GoldenEye;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 100px;
+    /*Code added from HTML Herald*/
+    box-shadow: 5px 5px #484848;
+    top: -5px;
+    left: -2px;
+    position: relative;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/007.jpg);
+    opacity: 0.9;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+#main-cont img {
+    width: 200px;
+    height: 400px;
+}
+
+.main-cont {
+    max-width: 1020px;
+    margin: 50px auto;
+    height: 100%;
+    text-align: justify;
+}
+
+.main-cont p {
+    width: auto;
+    color: white;
+    text-align: justify;
+    padding: 5px;
+}
+
+/* FORM */
+#form {
+    background: rgba(0, 0, 0, 0.8);
+    max-width: 100%;
+    width: 80%;
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: left;
+    color: white;
+}
+
+#contactForm fieldset {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px black;
+    border-radius: 15px;
+}
+
+.form-content {
+    width: 40%;
+}
+
+.form-content p {
+    padding-bottom: 25px;
+}
+
+.form-field input, .form-field textarea, #submit {
+    font-size: 14px;
+    color: white;
+}
+
+.form-field label {
+    font-family: GoldenEye;
+    font-size: 20px;
+    color: gold;
+    text-align: left;
+}
+
+.form-field input, .form-field textarea {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 1px 1px grey;
+    -moz-box-shadow: 0 0 1px 1px grey;
+    -ms-box-shadow: 0 0 1px 1px grey;
+    -o-box-shadow: 0 0 1px 1px grey;
+    box-shadow: 0 0 1px 1px grey;
+    border: 0;
+    border-radius: 10px;
+}
+
+.form-field textarea {
+    height: 150px;
+}
+
+#submit {
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    background: black;
+    color: white;
+}
+
+/*#submit:active {
+    background: black;
+    color: gold;
+}
+*/
+/*End of Form*/
+
+footer {
+    height: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#copyrgt {
+    color: black;
+    margin: 5px auto;
+    font-size: 10px;
+    text-align: center;
+}

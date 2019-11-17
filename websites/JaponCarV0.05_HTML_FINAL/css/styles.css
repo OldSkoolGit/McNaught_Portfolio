@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.clearfloat {
+		font-size: 0px;
+		margin: 0px;
+		padding: 0px;
+		clear: both;
+		float: none;
+		height: 0px;
+		width: 0px;
+		border: 0px none;
+		line-height: 0px;
+}
+
+#ldg-pg-bkgrd {
+	height: 750px;
+	background-image: url(../images/Toyota2000GTBackground.jpg);
+	background-color: #282828;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	padding: 39px;
+}
+
+.ldg-pg-bkgrd-text {
+	background-color: rgba(233,236,239,0);
+	padding:1em;
+}
+
+.ldg-pg-bkgrd-text h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 6em;
+	font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	color: white;
+}
+
+h2 {
+	font-size: 2em;
+	font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	color: white;
+}
+
+/*
+h3 {
+	color: white;
+	text-align: center;
+	font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+	padding-bottom: 25px;
+}
+*/
+
+body {
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#sprtscars-bkgrd {
+	height: auto;
+	background-image: url(../images/Toyota2000GTBackground.jpg);
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	padding: 39px;
+}
+
+#section1 {
+	max-width: 30%
+	margin: 0 auto;
+	color: white;
+}
+
+#section1 img {
+	width: 15%;
+	border-radius: 5px;
+}
+
+#section1 figcaption {
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#section2 {
+	background-color: rgba(132, 103, 59, 0.6);
+	max-width: 60%;
+	margin: auto;
+	margin-bottom: 35px;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+#section2 p {
+	text-align: justify;
+	font-size: 1em;
+	color: white;
+}
+
+#section2 img {
+	width: 45%;
+	border-radius: 15px;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+#section2 figcaption {
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+	margin-bottom: 20px;
+}
+
+/*
+.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 20%;
+}
+
+.gallery:hover {
+	border: 1px solid #777;
+}
+*/
+
+.gallery-pg {
+	background-color: rgba(132, 103, 59, 0.6);
+	max-width: 60%;
+	margin: auto;
+	margin-bottom: 35px;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.desc {
+	padding: 0.6em;
+	padding-bottom: 1em;
+	text-align: center;
+	color: white;
+}
+
+
+.column img {	
+	width: 100%;
+	height: 80%;
+	border-radius: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.contactinfo {
+	color: white;
+}
